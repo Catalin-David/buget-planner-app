@@ -1,0 +1,61 @@
+.mainContainer {
+    width:100%;
+
+    .appBar {
+        background-color: #0B0C10;
+
+        .toolbarContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .searchBar {
+                width: 50%;
+                
+                :global {
+                    label:not(.Mui-focused) {
+                        color: #ddd;
+                    }
+
+                    .MuiFilledInput-underline::before {
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+                    }
+
+                    input {
+                        color: white;
+                    }
+                }
+            }
+
+            .logoutLogoPack {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .logoutButton {
+                    margin-right: 0.5em;
+                }
+            }
+        }
+    }
+
+    .tabsBar {
+        background-color: #1f2833;
+
+        .tab {
+            color: white;
+        }
+    }
+}
+
+.logo {
+    width: 48px;
+    height: 42px;
+}
+
+button.addButton {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+

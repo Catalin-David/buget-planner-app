@@ -1,0 +1,70 @@
+.mainContainer {
+    width:100%;
+
+    .appBar {
+        background-color: #0B0C10;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+
+        .appTitle {
+            flex-grow: 1;
+        }
+
+        .logoutLogoPack {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logoutButton {
+                margin-right: 0.5em;
+            }
+        }
+    }
+
+    .itemList {
+        background-color: #1F2833;
+        min-height: 100vh;
+        color: white;
+
+        .secondaryText {
+            color: rgb(150, 150, 150);
+        }
+    }
+
+    .titleBar {
+        background-color: #0B0C10;
+
+        .listTitle {
+            color: white;
+            padding-left: 1em;
+        }
+
+    }
+
+    .rightSideItem {
+        text-align: right;
+    }
+
+    .sumBar {
+        width: 100%;
+        position: fixed;
+        bottom: 0.5em;
+        border-top: 1px solid white;
+        text-align: center;
+        color: white;
+        padding-top: 0.4em;
+    }
+
+}
+
+.logo {
+    width: 48px;
+    height: 42px;
+}
+
+button.addButton {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 2rem;
+}
